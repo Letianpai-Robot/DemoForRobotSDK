@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_light_background"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="启动舵机"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="关闭舵机"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="向前走"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="耳朵转动"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab4"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="耳朵亮灯"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab5"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="监听传感器"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab6"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="解除监听"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab7"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="测试tts"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab8"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="打开sensor"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab9"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="关闭sensor"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/fab10"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="跳舞"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+</LinearLayout>
