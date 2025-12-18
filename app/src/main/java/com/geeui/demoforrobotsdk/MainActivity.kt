@@ -11,6 +11,7 @@ import com.leitianpai.robotsdk.RobotService
 import com.leitianpai.robotsdk.callback.SensorCallback
 import com.leitianpai.robotsdk.commandlib.Light
 import com.leitianpai.robotsdk.commandlib.RobotRemoteConsts
+import com.leitianpai.robotsdk.commandlib.StatusBarCmd
 import com.leitianpai.robotsdk.message.ActionMessage
 import com.leitianpai.robotsdk.message.AntennaLightMessage
 import com.leitianpai.robotsdk.message.AntennaMessage
@@ -144,6 +145,18 @@ class MainActivity : AppCompatActivity() {
             //                mRobotService?.robotStartExpression("h0280");
             mRobotService?.sendLongCommand("speechDance", "from_third")
 //            mRobotService?.unbindService()
+        })
+
+        // 显示充电图标
+        binding.fab11.setOnClickListener(View.OnClickListener {
+            Log.d(TAG, "onClick: show charging icon")
+            mRobotService?.robotControlStatusBar(StatusBarCmd.COMMAND_SHOW_CHARGING)
+        })
+
+        // 隐藏充电图标
+        binding.fab12.setOnClickListener(View.OnClickListener {
+            Log.d(TAG, "onClick: hide charging icon")
+            mRobotService?.robotControlStatusBar(StatusBarCmd.COMMAND_HIDE_CHARGING)
         })
     }
 

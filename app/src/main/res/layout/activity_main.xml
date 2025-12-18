@@ -99,8 +99,24 @@
             android:id="@+id/fab10"
             android:layout_width="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="60dp"
             android:text="跳舞"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+
+        <Button
+            android:id="@+id/fab11"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="显示充电图标"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+
+        <Button
+            android:id="@+id/fab12"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="60dp"
+            android:text="隐藏充电图标"
             android:layout_height="wrap_content"
             app:srcCompat="@android:drawable/ic_dialog_email" />
 
